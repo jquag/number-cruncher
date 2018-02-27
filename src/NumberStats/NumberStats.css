@@ -1,0 +1,16 @@
+.NumberStats {
+    grid-column: stats;
+    grid-row: main;
+    justify-self: center;
+}
+
+.NumberStats label {
+    width: 60px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.NumberStats .stat-value {
+    color: chartreuse;
+}

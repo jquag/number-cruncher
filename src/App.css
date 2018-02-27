@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.App {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 725px;
+    display: grid;
+    grid-template-columns: [input] 35fr [stats] 45fr [invalids] 20fr;
+    grid-template-rows: [header] 75px  [main] auto;
+    grid-column-gap: 20px;
+    color: azure;
+}
+
+.App-header {
+    grid-column: 1 / span 3;
+    grid-row: header;
+    justify-self: center;
+    align-self: center;
+}
+
+hr {
+    color: dimgrey;
+}
+
+button {
+    height: 50px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: silver;
+    margin-top: 0;
+}

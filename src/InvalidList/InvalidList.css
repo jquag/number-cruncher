@@ -1,0 +1,9 @@
+.InvalidList {
+    grid-column: invalids;
+    grid-row: main;
+    color: silver;
+}
+
+.InvalidList .invalid-item {
+    color: #ff546f;
+}
